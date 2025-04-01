@@ -1,4 +1,4 @@
-# 김준형 (Jun Hyeong Kim) 👨‍💻
+# 김준형 (Jun Hyeong Kim) 
 
 ## About Me
 
