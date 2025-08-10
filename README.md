@@ -7,7 +7,7 @@
 
 ---
 
-## 🚀 대표 프로젝트
+## 대표 프로젝트
 
 ### 1. [Fream Backend](https://github.com/junhyeong9812/fream-back)
 
@@ -37,7 +37,7 @@ Spring Boot 기반 확장 가능한 웹 서비스 인프라 구축 프로젝트
 
 ---
 
-## 🏛 프레임워크 & 서버 아키텍처 실험
+## 프레임워크 & 서버 아키텍처 실험
 
 ### 3. [Winter](https://github.com/junhyeong9812/winter)
 
@@ -68,7 +68,7 @@ Spring MVC 구조를 직접 구현한 경량 웹 프레임워크
 
 ---
 
-## 🧪 학습·실험 프로젝트
+## 학습·실험 프로젝트
 
 * **ORM 실험**: JPA vs QueryDSL 성능 비교, DB 인덱스 튜닝
 * **검색 엔진 최적화**: Elasticsearch 형태소 분석기 & FastAPI 통합 실험
@@ -78,7 +78,7 @@ Spring MVC 구조를 직접 구현한 경량 웹 프레임워크
 
 ---
 
-## 📫 Contact
+## Contact
 
 * GitHub: [junhyeong9812](https://github.com/junhyeong9812)
 * Email: [pickjog@naver.com](mailto:pickjog@naver.com)
