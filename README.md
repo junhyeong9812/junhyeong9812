@@ -1,8 +1,8 @@
 ## 김준형 | Backend Developer
 
-> 기술을 레고블럭처럼 모으고 조립하는 개발자입니다.  
-> 작은 조각들이 모여 누군가에게 도움이 되는 무언가가 되기를 바라며,  
-> 매일 한 조각씩 더 익히고 있습니다.
+> **다양한 기능과 이론을 추상화 수준에서 빠르게 익히고, 필요한 순간에는 딥다이브로 동작 원리까지 파고드는 개발자입니다.**  
+> "이건 어떻게 동작하는가"라는 질문으로 직접 구현하고 실험하며 문제를 개선하고 해결합니다.  
+> 필요한 도구는 가져와 공부하고 그 원리를 탐구해 사용하며, 쓰임에 비해 너무 크다면 직접 만듭니다.
 
 ---
 
@@ -55,7 +55,7 @@
 |---|---|
 | [sync-async-lab](https://github.com/junhyeong9812/sync-async-lab) | 동기 vs 비동기 통신 가설 실험 |
 | [redis-atomicity-lab](https://github.com/junhyeong9812/redis-atomicity-lab) | Redis Lua 스크립트를 통한 원자성 보장 실험 |
-| [acid-Lab-](https://github.com/junhyeong9812/acid-Lab-) | 트랜잭션 ACID 속성 실험 |
+| [acid-Lab-](https://github.com/junhyeong9812/acid-Lab-) | 트랜잭션 ACID 속성 실험 — **진행중** |
 | [spring-cache-lab](https://github.com/junhyeong9812/spring-cache-lab) | Spring 캐시 동작 실험 |
 | [proto-bench](https://github.com/junhyeong9812/proto-bench) | gRPC vs HTTP 비교 분석 (Kotlin) |
 | [spring-performance-benchmark](https://github.com/junhyeong9812/spring-performance-benchmark) | Spring MVC vs WebFlux 부하 테스트 |
@@ -85,6 +85,34 @@
 | [study-site](https://github.com/junhyeong9812/study-site) | 1,524개 학습 항목을 실시간 편집·실행하는 인터랙티브 코드 플레이그라운드 |
 | [chatbot](https://github.com/junhyeong9812/chatbot) | Spring AI 챗봇 |
 | [ExceptionRadar](https://github.com/junhyeong9812/ExceptionRadar) | 스레드·프로세스 경계에서 사라지는 예외 추적·모니터링 — **진행예정** |
+
+### 🏢 팀 프로젝트
+
+#### [Tickatch](https://github.com/Tickatch) — 티켓 예매 플랫폼 MSA
+
+2025.12 · 1개월 · 5명 · **인증 / 공통 라이브러리 / 상품 도메인 / 프론트엔드 담당**, 서비스 간 이벤트·API 흐름 문서화 및 테스트 시나리오 조율  
+`Spring Boot` `Spring Cloud` `Kafka` `RabbitMQ` `PostgreSQL` `Redis` `Docker` `NGINX` `Next.js`
+
+- Gateway 독립 JWT RS256 검증과 JWKS 캐싱으로 매 요청 Auth 호출 제거
+- HTTP·Feign·MQ·Scheduler traceId 자동 전파 라이브러리를 Maven Central에 배포
+- 좌석 동시성 4방안을 비교하고 도메인 특성에 맞춰 비관적 락 채택
+- 운영 코드와 분리된 부하/정합성 검증 환경 구축 — 초당 150 RPS·최대 대기 10만 명 시나리오에서 대기열 안정성 검증
+- Docker Compose·NGINX·Let's Encrypt 기반 자가 서버 호스팅 구성
+
+직접 구현한 리포: [auth-service](https://github.com/Tickatch/auth-service) · [user-service](https://github.com/Tickatch/user-service) · [common-lib](https://github.com/Tickatch/common-lib) · [product-service](https://github.com/Tickatch/product-service) · [tickatch_web](https://github.com/Tickatch/tickatch_web) · [test-service](https://github.com/Tickatch/test-service) · [infrastructure](https://github.com/Tickatch/infrastructure)
+
+#### [EarlyExpress](https://github.com/EarlyExpress) — 물류 플랫폼 MSA · 프로젝트 리딩
+
+2025.11 · 1개월 · 4명 · **요구사항 명세 / 도메인 경계 정의 / 서비스 분담·API 계약 조율 / Saga Orchestrator 구현**  
+`Spring Boot` `Spring Cloud` `Kafka` `Keycloak` `OpenFeign` `PostgreSQL`
+
+- Order Service 중심 Saga Orchestrator로 7단계 분산 트랜잭션 흐름 제어
+- Step History 영속화로 진행/실패/보상 경로 추적 — 장애 분석 시간 10분 → 1분
+- 보상 트랜잭션 처리 순서를 재정립해 장애 시 히스토리 소실 문제 차단
+- HubSegment 기반 다중 구간 배송 모델로 전국 허브 복합 경로 처리
+- Kafka 이벤트 기반으로 Order와 Track의 책임 경계 및 배송 상태 Source of Truth 정리
+
+직접 구현한 리포: [order-service](https://github.com/EarlyExpress/order-service) · [track-service](https://github.com/EarlyExpress/track-service) · [delivery-service](https://github.com/EarlyExpress/delivery-service) · [hub-delivery-service](https://github.com/EarlyExpress/hub-delivery-service) · [product-service](https://github.com/EarlyExpress/product-service) · [inventory-service](https://github.com/EarlyExpress/inventory-service) · [early-express-frontend](https://github.com/EarlyExpress/early-express-frontend)
 
 ### 📚 자료구조 · CS · 기록
 
