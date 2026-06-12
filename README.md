@@ -128,3 +128,4 @@
 | [java-spring-history](https://github.com/junhyeong9812/java-spring-history) | 자바·스프링 히스토리 정리 |
 | [tidy-first-example](https://github.com/junhyeong9812/tidy-first-example) | 『Tidy First?』의 기법들을 예제로 구현 |
 | [analyze-open-code-review-analyze](https://github.com/junhyeong9812/analyze-open-code-review-analyze) | Alibaba open-code-review 분석·요약 문서 |
+| [keycloak-analyze](https://github.com/junhyeong9812/keycloak-analyze) | Keycloak 26.6.2 공식 가이드 78편 한국어 1:1 완역 — 서버 설정·앱 보안·관측성·HA 전 문서 |
