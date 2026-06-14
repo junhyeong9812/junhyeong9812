@@ -40,7 +40,7 @@
 | [python-di-container](https://github.com/junhyeong9812/python-di-container) | 파이썬 의존성 주입 컨테이너 동작 구조화 |
 | [spring-architecture](https://github.com/junhyeong9812/spring-architecture) | 스프링 아키텍처 내부 구조 학습 |
 | [fastapi-architecture](https://github.com/junhyeong9812/fastapi-architecture) | FastAPI 아키텍처 철학 학습 |
-| [code-storage-server](https://github.com/junhyeong9812/code-storage-server) | Rust로 구현한 코드 보관 서버 |
+| [code-storage-server](https://github.com/junhyeong9812/code-storage-server) | Rust로 Git을 무의존 재구현한 독립 VCS — 자체 CLI(`cts`)·서버·JWT 인증/협업자 인가·push 빌드 자동 트리거 (헥사고날 4크레이트) |
 | [ide](https://github.com/junhyeong9812/ide) | Java & Python IDE는 어떻게 만들어지는가 |
 | [process_thread](https://github.com/junhyeong9812/process_thread) | 프로세스·스레드의 생명주기·동기화·스케줄링을 Java로 구현하고 관찰 |
 | [Gatekeeper](https://github.com/junhyeong9812/Gatekeeper) | IAM(인증·인가) 핵심 메커니즘 직접 구현 — **진행예정** (설계 문서 단계) |
@@ -74,6 +74,7 @@
 | 프로젝트 | 설명 |
 |---|---|
 | [erp](https://github.com/junhyeong9812/erp) | Java Spring & TypeScript 물류 도메인 ERP |
+| [fream-back](https://github.com/junhyeong9812/fream-back) | KREAM 스타일 리셀 커머스 백엔드 — Kafka CQRS·ES(Nori)·결정적 암호화·CI/CD 운영. 2026 Spring Modulith 리팩토링(경계 강제·FK→ID/이벤트 디커플링·trade 매칭+CAS) 진행 중 |
 | [VulnScope](https://github.com/junhyeong9812/VulnScope) | 자동 모의해킹·취약점 점검 SaaS — 학습용이지만 실서비스 표준으로 진행 |
 | [Hybrid-Event-Driven-Architecture](https://github.com/junhyeong9812/Hybrid-Event-Driven-Architecture) | 모듈러 모놀리스 기반 하이브리드 이벤트 드리븐 아키텍처 |
 | [hexapass](https://github.com/junhyeong9812/hexapass) | 구독형 멤버십·예약 도메인을 순수 자바 OOP로 설계 — SOLID·패턴·헥사고날·TDD |
@@ -129,3 +130,5 @@
 | [tidy-first-example](https://github.com/junhyeong9812/tidy-first-example) | 『Tidy First?』의 기법들을 예제로 구현 |
 | [analyze-open-code-review-analyze](https://github.com/junhyeong9812/analyze-open-code-review-analyze) | Alibaba open-code-review 분석·요약 문서 |
 | [keycloak-analyze](https://github.com/junhyeong9812/keycloak-analyze) | Keycloak 26.6.2 공식 가이드 78편 한국어 1:1 완역 — 서버 설정·앱 보안·관측성·HA 전 문서 |
+| [spring-framework-ko-docs](https://github.com/junhyeong9812/spring-framework-ko-docs) | Spring Framework 7.1 소스 22모듈을 "책처럼 읽으며" 내부 구조를 코드 레벨로 풀어쓴 한글 해설서 (why→what→how + ASCII 구조도) |
+| [spring-security-ko-docs](https://github.com/junhyeong9812/spring-security-ko-docs) | Spring Security 7.1 소스 22모듈(인증·인가·OAuth2·SAML2·WebAuthn) 한글 해설서 — spring-framework-ko-docs 자매편 |
