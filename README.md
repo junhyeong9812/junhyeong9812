@@ -6,6 +6,40 @@
 
 ---
 
+## 🌐 오픈소스 기여
+
+널리 쓰이는 프레임워크 내부의 정확성(correctness) 버그를 직접 찾아 고칩니다 — 모든 PR은 **실패하는 재현 테스트를 먼저 만들어(red) 수정 후 통과(green)** 시키는 방식으로 검증합니다.
+
+<ul>
+  <li>
+    <a href="https://github.com/react/react">react/react</a> — React ·
+    <a href="https://github.com/react/react/pulls?q=is%3Apr+author%3Ajunhyeong9812">PR 목록</a> ·
+    <a href="https://github.com/react/react/pulls?q=is%3Apr+author%3Ajunhyeong9812+is%3Amerged">머지됨</a>
+  </li>
+  <li>
+    <a href="https://github.com/elastic/elasticsearch">elastic/elasticsearch</a> — Elasticsearch ·
+    <a href="https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+author%3Ajunhyeong9812">PR 목록</a> ·
+    <a href="https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+author%3Ajunhyeong9812+is%3Amerged">머지됨</a>
+  </li>
+  <li>
+    <a href="https://github.com/spring-projects/spring-security">spring-projects/spring-security</a> — Spring Security ·
+    <a href="https://github.com/spring-projects/spring-security/pulls?q=is%3Apr+author%3Ajunhyeong9812">PR 목록</a> ·
+    <a href="https://github.com/spring-projects/spring-security/pulls?q=is%3Apr+author%3Ajunhyeong9812+is%3Amerged">머지됨</a>
+  </li>
+  <li>
+    <a href="https://github.com/spring-projects/spring-framework">spring-projects/spring-framework</a> — Spring Framework ·
+    <a href="https://github.com/spring-projects/spring-framework/pulls?q=is%3Apr+author%3Ajunhyeong9812">PR 목록</a> ·
+    <a href="https://github.com/spring-projects/spring-framework/pulls?q=is%3Apr+author%3Ajunhyeong9812+is%3Amerged">머지됨</a>
+  </li>
+</ul>
+
+**주요 기여**
+
+- **React** — [숫자 속성에 BigInt 값이 와도 크래시되지 않도록 수정 (#36805)](https://github.com/react/react/pull/36805): ReactDOM이 숫자형 속성에 `BigInt` 값이 들어오면 예외를 던지던 것을, 숫자 변환 경로에서 방어하도록 수정.
+- **Spring Framework** — [SimpleAsyncTaskExecutor의 throttle permit 균형 (#36916)](https://github.com/spring-projects/spring-framework/pull/36916): 즉시 실행(immediate-timeout) 태스크가 획득하지도 않은 동시성 permit을 반납해, 설정한 동시성 제한이 조용히 깨지던 문제를 수정.
+
+---
+
 ## 📂 Project History
 
 각 프로젝트는 하나의 질문에서 시작했습니다. 카테고리별로 정리한 전체 기록입니다.
