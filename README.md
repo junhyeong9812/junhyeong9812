@@ -14,22 +14,18 @@
   <li>
     <a href="https://github.com/react/react">react/react</a> — React ·
     <a href="https://github.com/react/react/pulls?q=is%3Apr+author%3Ajunhyeong9812">PR 목록</a> ·
-    <a href="https://github.com/react/react/pulls?q=is%3Apr+author%3Ajunhyeong9812+is%3Amerged">머지됨</a>
   </li>
   <li>
     <a href="https://github.com/elastic/elasticsearch">elastic/elasticsearch</a> — Elasticsearch ·
     <a href="https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+author%3Ajunhyeong9812">PR 목록</a> ·
-    <a href="https://github.com/elastic/elasticsearch/pulls?q=is%3Apr+author%3Ajunhyeong9812+is%3Amerged">머지됨</a>
   </li>
   <li>
     <a href="https://github.com/spring-projects/spring-security">spring-projects/spring-security</a> — Spring Security ·
     <a href="https://github.com/spring-projects/spring-security/pulls?q=is%3Apr+author%3Ajunhyeong9812">PR 목록</a> ·
-    <a href="https://github.com/spring-projects/spring-security/pulls?q=is%3Apr+author%3Ajunhyeong9812+is%3Amerged">머지됨</a>
   </li>
   <li>
     <a href="https://github.com/spring-projects/spring-framework">spring-projects/spring-framework</a> — Spring Framework ·
     <a href="https://github.com/spring-projects/spring-framework/pulls?q=is%3Apr+author%3Ajunhyeong9812">PR 목록</a> ·
-    <a href="https://github.com/spring-projects/spring-framework/pulls?q=is%3Apr+author%3Ajunhyeong9812+is%3Amerged">머지됨</a>
   </li>
 </ul>
 
