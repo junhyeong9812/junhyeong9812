@@ -8,7 +8,7 @@
 
 ## 🌐 오픈소스 기여
 
-널리 쓰이는 프레임워크 내부의 정확성(correctness) 버그를 직접 찾아 고칩니다 — 모든 PR은 **실패하는 재현 테스트를 먼저 만들어(red) 수정 후 통과(green)** 시키는 방식으로 검증합니다.
+프레임워크 소스를 코드 레벨로 분석·문서화하는 과정([react-ko-docs](https://github.com/junhyeong9812/react-ko-docs) · [spring-framework-ko-docs](https://github.com/junhyeong9812/spring-framework-ko-docs) · [spring-security-ko-docs](https://github.com/junhyeong9812/spring-security-ko-docs))에서 발견한 정확성(correctness) 문제를 업스트림에 제안합니다. 각 PR은 실패하는 재현 테스트(red) → 수정 통과(green)로 검증합니다.
 
 <ul>
   <li>
@@ -32,11 +32,6 @@
     <a href="https://github.com/spring-projects/spring-framework/pulls?q=is%3Apr+author%3Ajunhyeong9812+is%3Amerged">머지됨</a>
   </li>
 </ul>
-
-**주요 기여**
-
-- **React** — [숫자 속성에 BigInt 값이 와도 크래시되지 않도록 수정 (#36805)](https://github.com/react/react/pull/36805): ReactDOM이 숫자형 속성에 `BigInt` 값이 들어오면 예외를 던지던 것을, 숫자 변환 경로에서 방어하도록 수정.
-- **Spring Framework** — [SimpleAsyncTaskExecutor의 throttle permit 균형 (#36916)](https://github.com/spring-projects/spring-framework/pull/36916): 즉시 실행(immediate-timeout) 태스크가 획득하지도 않은 동시성 permit을 반납해, 설정한 동시성 제한이 조용히 깨지던 문제를 수정.
 
 ---
 
